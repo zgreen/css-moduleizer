@@ -52,4 +52,4 @@ so:
   <div class="tags">Art, cats, bird watching</div>
 </article>
 ```
-The script will remove style tag (by default), once it has loaded.
+The script will remove that style tag (by default), once it has loaded.
