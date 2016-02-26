@@ -6,7 +6,7 @@
  * @param {boolean} hiddenInitially If the element is hidden initially.
  */
 export default function(className, children = {}, hiddenInitially = true) {
-  // Get the current script
+  // Get the component
   const $el = document.currentScript.parentNode;
   if (!$el) {
     return;
