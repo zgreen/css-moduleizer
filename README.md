@@ -1,5 +1,5 @@
 # Styles Loader
-For use without CSS Modules.
+Use with CSS Modules without a JS framework.
 
 ## What?
 Working from the premise that CSS Modules—which allow for locally-scoped, truly
