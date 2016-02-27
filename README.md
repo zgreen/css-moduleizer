@@ -1,4 +1,4 @@
-# Styles Loader
+# CSS Modules
 Use with CSS Modules without a JS framework.
 
 ## What?
@@ -24,14 +24,14 @@ And, in `component.js`:
 import { article, title, excerpt, tags } from './component.css';
 import stylesLoader from 'path/to/stylesLoader';
 
-stylesLoader(
-  article,
-  {
+stylesLoader({
+  className: article,
+  children: {
     'h2': title,
     'p': excerpt,
     '.tags': tags,
-  }
-);
+  },
+});
 ```
 
 This will add the locally scoped `article` class to the `<article>` tag in the
