@@ -1,4 +1,4 @@
-# CSS Modules
+# Styles Loader
 Use with CSS Modules without a JS framework.
 
 ## What?
