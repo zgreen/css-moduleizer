@@ -6,6 +6,17 @@ Working from the premise that CSS Modules—which allow for locally-scoped, trul
 modular CSS—are a preferred way to author styles, this script allows you to make
 use of CSS Modules without the need for a JS framework.
 
+## Arguments
+The `stylesLoader()` function takes a single object as its only parameter. The
+following properties are valid:
+
+| Property          | Type      | Description                                              |
+| ----------------- | --------- | -------------------------------------------------------- |
+| `className`       | `string`  | A CSS Modules class name                                 |
+| `element`         | `object`  | The component's element                                  |
+| `children`        | `object`  | Key/value pairs of selector/localized CSS Module classes |
+| `hiddenInitially` | `boolean` | If the component is initially hidden                     |
+
 ## How?
 Load your component script inside the component you're working with, e.g.:
 ```html
