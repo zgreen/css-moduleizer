@@ -1,5 +1,5 @@
 /**
- * Load component styles using CSS Modules.
+ * Apply component styles using CSS Modules.
  *
  * @param {object} params Fuction arguments.
  * @param {string} params.className Localized CSS Module class name. Default empty string.
