@@ -7,7 +7,7 @@ modular CSS—are a preferred way to author styles, this script allows you to ma
 use of CSS Modules without the need for a JS framework.
 
 ## Arguments
-The `stylesLoader()` function takes a single object as its only parameter. The
+This script exports a function takes a single object as its only parameter. The
 following properties are valid:
 
 | Property          | Type      | Description                                              |
