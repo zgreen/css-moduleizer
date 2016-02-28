@@ -1,4 +1,4 @@
-# Styles Loader
+# CSS Moduleizer
 Use with CSS Modules without a JS framework.
 
 ## What?
@@ -33,9 +33,9 @@ Load your component script inside the component you're working with, e.g.:
 And, in `component.js`:
 ```js
 import { article, title, excerpt, tags } from './component.css';
-import stylesLoader from 'path/to/stylesLoader';
+import cssModuleizer from 'path/to/cssModuleizer';
 
-stylesLoader({
+cssModuleizer({
   className: article,
   children: {
     'h2': title,
