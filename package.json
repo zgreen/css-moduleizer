@@ -1,0 +1,23 @@
+{
+  "name": "css-moduleizer",
+  "version": "0.1.0",
+  "description": "Use with CSS Modules without a JS framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zgreen/css-moduleizer.git"
+  },
+  "keywords": [
+    "css",
+    "css-modules"
+  ],
+  "author": "Zach Green",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zgreen/css-moduleizer/issues"
+  },
+  "homepage": "https://github.com/zgreen/css-moduleizer#readme"
+}
